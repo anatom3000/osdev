@@ -1,5 +1,5 @@
 ; 0x0e : tells the cpu to write the content of al in tty mode
-mov ah, 0x0e 
+mov ah, 0x0e
 
 ; interrupt 0x10 : interrupt specific to video service
 ; printing "Hello" but painfully since strings are too advanced apparently
